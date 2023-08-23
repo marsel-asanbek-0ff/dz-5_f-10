@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Online Store</h1>
+    </header>
+    <main>
+        <section class="categories">
+            <h2>Categories</h2>
+            <select id="categorySelect">
+                <option value=""> ALL Categories</option>
+            </select>
+        </section>
+
+        <section class="sort">
+            <h2>Sort by Price</h2>
+            <select id="sortSelect">
+                <option value="default">Default</option>
+                <option value="lowToHigh">Price: Low to High</option>
+                <option value="highToLow">Price: Hight to Low</option>
+            </select>
+        </section>
+
+        <section class="products">
+            <h2>Products</h2>
+            <ul id="productList" class="product-list">
+            </ul>
+
+        </section>
+        <section class="gender">
+            <h2>Filter by Gender</h2>
+            <select id="genderSelect">
+                <option value="">All Genders</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="unisex">Unisex</option>
+            </select>
+        </section>
+    </main>
+    <script src="/main.js"></script>
+</body>
+</html>
